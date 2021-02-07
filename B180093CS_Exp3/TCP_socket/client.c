@@ -6,7 +6,7 @@
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<unistd.h>
-#include"colors.c"
+#include"../colors.c"
 
 #define DEST_IP "127.0.0.1"
 #define DEST_PORT 8888

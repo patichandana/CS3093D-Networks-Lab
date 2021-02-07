@@ -1,5 +1,5 @@
 #include<arpa/inet.h>
-#include "colors.c"
+#include "../colors.c"
 #include<netinet/in.h>
 #include<stdio.h>
 #include<stdlib.h>
