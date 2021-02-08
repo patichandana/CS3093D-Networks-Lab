@@ -36,7 +36,7 @@ int main(){
   socket_fd = createSocket();
   white();
   printf("Enter the message: ");
-  fgets(message,1024,stdin);
+  scanf("%[^\n]s",message);
   serv_addr.sin_family = AF_INET;
   serv_addr.sin_port =  htons(DEST_PORT);
   serv_addr.sin_addr.s_addr = inet_addr(DEST_IP);

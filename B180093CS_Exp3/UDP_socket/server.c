@@ -56,7 +56,7 @@ int main(){
   n = recvfrom(socket_fd, (char *)message,sizeof(message), MSG_WAITALL, ( struct sockaddr *) &client_addr, &len);
   message[n] = '\0';
   yellow();
-  printf("Client : %s", message);
+  printf("Client : %s\n", message);
   sendto(socket_fd, (const char *)reply, strlen(reply),  MSG_CONFIRM, (const struct sockaddr *) &client_addr, len);
   green();
   printf("Message sent...\n");
