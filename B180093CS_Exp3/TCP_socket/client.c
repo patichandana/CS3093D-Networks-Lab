@@ -57,7 +57,7 @@ void recvMessage(int socket_fd){
     int value = recv(socket_fd,(void *)&num,sizeof(num),0);
     checkError(value,"recieve");
     yellow();
-    printf("Square of entered number: %d\n",num);
+    printf("Server: Square of entered number: %d\n",num);
 }
 
 int main(int argc, char *argv[]) {
