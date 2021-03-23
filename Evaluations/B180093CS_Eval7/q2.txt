@@ -1,0 +1,5 @@
+2. i) Source IP: 192.168.43.211 Dest IP: 14.139.185.123
+    ii) HTTP protocol
+    iii) “user” = “admin”
+	“Passwd” = “adminstr@tor”
+ 	“Utype” = “Student”
